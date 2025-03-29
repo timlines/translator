@@ -1,0 +1,87 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/* * {
+     background-color: black;
+} */
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+html, body {
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 100%;
+     background: black;
+     color: white;
+     font-family: sans-serif;
+   }
+   /* Fullscreen container aligned at the top */
+   #output {
+     width: 100%;
+     height: 100%;
+     box-sizing: border-box;
+     padding-top: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+     text-align: center;
+     overflow: hidden; /* Hide scrollbars */
+     font-size: 70px;
+     line-height: 1.2;
+   }
+   /* Partial text: yellow italic */
+   .partial {
+     color: yellow;
+     font-style: italic;
+     margin-bottom: 20px;
+   }
+   /* Final text: white */
+   .final {
+     color: white;
+     margin-bottom: 20px;
+   }
+   /* Start button fixed at bottom center */
+   button {
+     position: fixed;
+     bottom: 30px;
+     left: 50%;
+     transform: translateX(-50%);
+     padding: 20px 40px;
+     font-size: 2em;
+     background: #333;
+     color: white;
+     border: none;
+     cursor: pointer;
+   }
