@@ -8,7 +8,7 @@ This simple translaotr prototype translates spoken english into spanish text on 
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, python
+**Tech used:** HTML, CSS, JavaScript
 
 This app was made using a single python script
 
@@ -19,7 +19,5 @@ No matter what your experience level, being an engineer means continuously learn
 # How to run the program:
 
 - Download the program
-- Add azure credetials to keys.py
-- pip install azure-cognitiveservices-speech requests flask
-- py script.py
-- Open http://127.0.0.1:5000/ in a web browser.
+- Add azure credetials
+- Open in a web browser.
